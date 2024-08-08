@@ -1,0 +1,509 @@
+#overall{
+    background-color:rgb(216, 214, 214);
+}
+#navcontainer{
+    height: 100px;
+    display: flex;
+    background-color:rgb(84, 42, 120);
+   margin: 10px;
+    justify-content: space-between;
+}
+
+.left{
+    display: flex;
+    gap: 50px;
+}
+.item1{
+    display: flex;
+    flex-direction: column;
+}
+.th{
+    height: 40px;
+    width: 40px;
+}
+.oip4{
+    height: 20px;
+    width: 20px;
+    position: relative;
+    left: 4%;
+}
+#download2{
+    height: 8px;
+    width: 8px;
+}
+#parahead{
+    color:white;
+    font-size: x-large;
+    position: relative;
+    top: 0%;
+}
+#para2{
+    color:white;
+}
+.right{
+    display: flex;
+    /* justify-content: space-evenly; */
+    gap: 100px;
+}
+
+#rightimg1{
+        height: 50px;
+        width: 50px;
+        position: relative;
+        top: 20%;
+        transition: all 2s ease 0s;
+    }
+    #rightimg1:hover{
+        transform: scale(1.5);
+    }
+    #rightimg2{
+        height: 50px;
+        width: 50px;
+
+        position: relative;
+        top: 20%;
+        transition: all 2s ease 0s;
+    }
+    #rightimg2:hover{
+        transform: scale(1.5);
+    }
+    #rightimg3{
+        height: 50px;
+        width: 50px;
+        position: relative;
+        top: 20%;
+        transition: all 2s ease 0s;
+    }
+    #rightimg3:hover{
+        transform: scale(1.5);
+    }
+
+    #divblock{
+    background-color: white;
+        border-radius: 30px;
+        height: 200px;
+        margin: 10px;
+    }
+.divwrite{
+    height: 50px;
+    width: 50px;
+    border: solid 2px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+#fontbdha{
+    font-size: larger;
+}
+
+.databtw{
+    height: 130px;
+    /* width: 100vw; */
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 100px;
+position: relative;
+/* animation: 5s linear 2s infinite alternate none running advertisement; */
+overflow: auto;
+}
+@keyframes advertisement{
+    from{
+        left:-400px;
+    }
+    to{
+      left:500px;
+    }
+}
+/* #startpara{
+    transition:all 3s linear 0s;
+} */
+#startpara:hover{
+    /* transform: scale(1.2); */
+   box-shadow: 10px 10px 30px violet;
+   text-shadow: 4px 4px 10px black;
+}
+#datadiv2{
+    display: flex;
+    justify-content: end;
+    margin: 20px;
+}
+#divwrite2{
+    background-color: rgb(65, 33, 94);
+    color: rgb(205, 195, 183);
+    border-radius: 20px;
+}
+#leftdesign{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#oip5{
+    height: 50px;
+    width: 50px;
+}
+#oip6{
+    height: 50px;
+    width: 50px;
+}
+.midcontainer{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    background-color: rgb(70, 33, 104);
+    border-radius: 20px;
+    margin: 10px;
+}
+.design{
+    display: flex;
+    
+  
+}
+.leftdesign2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#dwn3{
+    height: 50px;
+    width: 50px;
+}
+#oip8{
+    height: 50px;
+    width: 50px;
+}
+#datamid{
+display: flex;
+flex-direction: column;
+gap: 20px;
+align-items: center;
+}
+#startpara{
+color: white;
+}
+#midpara{
+    color: aliceblue;
+}
+#midhead{
+    color: aliceblue;
+    font-size: xx-large;
+    transition:all 3s linear 0s;
+}
+#midhead:hover{
+    transform:rotate(360deg);
+    /* transform: rotate(360deg); */
+}
+#middwnpara{
+    color: rgb(95, 35, 95);
+    background-color: white;
+    border-radius: 30px;
+}
+#design2{
+    display: flex;
+  
+}
+#rightdesign{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#oip7{
+    height: 50px;
+    width: 50px;
+}
+#oip9{
+    height: 50px;
+    width: 50px;
+}
+#oip10{
+    height: 50px;
+    width: 50px;
+}
+#oip11{
+    height: 50px;
+    width: 50px;
+}
+.rightdesign2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#bankdetails{
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 25px;
+    margin: 10px;
+}
+#detailhead{
+    position: relative;
+    left: 12%;
+}
+.detailctr{
+    display: flex;
+    justify-content: space-evenly;
+}
+#bankimg1{
+    height: 50px;
+    width: 50px;
+    border: 1px solid rgb(49, 3, 105);
+   /* transition: all 2s linear 0s; */
+}
+#bankimg1:hover{
+    transform: scale(1.5);
+}
+#bankimg2{
+    height: 50px;
+    width: 50px;
+    border: 1px solid rgb(49, 3, 105);
+    /* transition: all 2s linear 0s; */
+}
+#bankimg2:hover{
+    transform: scale(1.5);
+}
+#bankimg3{
+    height: 50px;
+    width: 50px;
+    border: 1px solid rgb(49, 3, 105);
+    /* transition: all 2s linear 0s; */
+}
+#bankimg3:hover{
+    transform: scale(1.5);
+}
+#bankimg4{
+    height: 50px;
+    width: 50px;
+    border: 1px solid rgb(49, 3, 105);
+    /* transition: all 2s linear 0s; */
+}
+#bankimg4:hover{
+    transform: scale(1.5);
+}
+/* #move1{
+    position: relative;
+    animation: 3s linear 0s infinite forwards none running movement;
+
+}
+@keyframes movement{
+    from{
+        left:0%;
+    }
+    to{
+        left:100%;
+    }
+} */
+#scanner{
+    height: 30px;
+    width: 30px;
+   }
+#dodibbe{
+    width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10px;
+    
+    
+}
+#dibba1{
+   width: 30vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    border: 1px solid grey;
+}
+#dibba2{
+    width: 40vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    border: 1px solid grey;
+    margin-right: 30px;
+}
+#facility{
+    width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10px;
+}
+#wallet{
+    width: 30vw;
+    display: flex;
+    background-color: white;
+    border-radius: 20px;
+}
+#rewards{
+    width: 30vw;
+    display: flex;
+    background-color: white;
+    border-radius: 20px;
+}
+#announce{
+    width: 30vw;
+    display: flex;
+    background-color: white;
+    border-radius: 20px;
+}
+#walletimg{
+    height: 50px;
+    width: 50px;
+    position: relative;
+    top: 20%;
+}
+#rewardimg{
+    height: 50px;
+    width: 50px;
+    position: relative;
+    top: 20%;
+}
+#announceimg{
+    height: 50px;
+    width: 50px;
+    position: relative;
+    top: 20%;
+}
+#other{
+    background-color: white;
+    border-radius: 20px;
+    margin: 10px;
+}
+#headingNslide{
+    display: flex;
+    justify-content: space-between;
+}
+#headcng{
+    color: rgb(86, 31, 138);
+    background-color: rgb(204, 182, 225);
+    /* position: relative;
+    animation: 3s linear 0s infinite forwards none running headmove; */
+}
+/* @keyframes headmove{
+    from{
+        left:0%;
+    }
+    to{
+        left:100%;
+    }
+} */
+
+.othercontainer{
+    display: flex;
+    justify-content: space-evenly;
+}
+#phonedata{
+    display: flex;
+    flex-direction: column;
+}
+#loandata{
+    display: flex;
+    flex-direction: column;
+}
+#creditdata{
+    display: flex;
+    flex-direction: column;
+}
+#rentdata{
+    display: flex;
+    flex-direction: column;
+}
+#phone{
+    height: 80px;
+    width: 80px;
+    /* transition:all 3s linear 0s; */
+}
+#phone:hover{
+    transform: scale(1.5);
+}
+#loan{
+    height: 80px;
+    width: 80px;
+    /* transition:all 3s linear 0s; */
+}
+#loan:hover{
+    transform: scale(1.5);
+}
+#credit{
+    height: 80px;
+    width: 80px;
+    /* transition:all 3s linear 0s; */
+}
+#credit:hover{
+    transform: scale(1.5);
+}
+#rent{
+    height: 80px;
+    width: 80px;
+    /* transition:all 3s linear 0s; */
+}
+#rent:hover{
+    transform: scale(1.5);
+}
+#pararent{
+    position: relative;
+    left: 25%;
+}
+#foot{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: white;
+    margin:10px;
+    width: 100vw;
+}
+#home{
+    display: flex;
+    flex-direction: column;
+}
+#loaan{
+    display: flex;
+    flex-direction: column;
+}
+#insurance{
+    display: flex;
+    flex-direction: column;
+}
+#wealth{
+    display: flex;
+    flex-direction: column;
+}
+#history{
+    display: flex;
+    flex-direction: column;
+}
+#homeimg{
+   box-shadow: 5px 5px 10px rgb(175, 79, 175);
+    height: 30px;
+    width: 30px;
+}
+
+#loaanimg{
+   
+    height: 30px;
+    width: 30px;
+}
+#loaanimg:hover{
+    box-shadow: 5px 5px 10px rgb(175, 79, 175);
+}
+#insuranceimg{
+    height: 30px;
+    width: 30px;
+}
+#insuranceimg:hover{
+    box-shadow: 5px 5px 10px rgb(175, 79, 175);
+}
+#wealthimg{
+    height: 30px;
+    width: 30px;
+}
+#wealthimg:hover{
+    box-shadow: 5px 5px 10px rgb(175, 79, 175);
+}
+#historyimg{
+    height: 30px;
+    width: 30px;
+}
+#historyimg:hover{
+    box-shadow: 5px 5px 10px rgb(175, 79, 175);
+}
+
+
